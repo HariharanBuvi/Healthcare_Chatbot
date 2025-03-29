@@ -69,5 +69,3 @@ Agentic-RAG-Chatbot/
 ## Notes
 - Ensure your Supabase project allows vector searches (`pgvector` extension enabled).
 - If any dependency fails, try upgrading with `pip install --upgrade <package>`.
-
-Enjoy building your Agentic RAG Chatbot! 🚀
