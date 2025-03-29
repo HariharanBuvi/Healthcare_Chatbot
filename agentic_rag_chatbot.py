@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 import streamlit as st
 from langchain.agents import AgentExecutor
-from langchain_groq import ChatGroq  # Using Groq's free tier
+from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import SystemMessage, AIMessage, HumanMessage
 from langchain.agents import create_tool_calling_agent
